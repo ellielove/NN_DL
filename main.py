@@ -1,6 +1,10 @@
+from __future__ import print_function
+import torch
+
 
 def main():
-    print('test')
+    x = torch.rand(5, 3)
+    print(x)
 
 
 if __name__ == '__main__':
